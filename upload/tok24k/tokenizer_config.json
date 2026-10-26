@@ -1,0 +1,21 @@
+{
+  "tokenizer_type": "byte_level_bpe",
+  "vocab_size": 24576,
+  "requested_vocab_size": 24576,
+  "min_frequency": 2,
+  "special_tokens": {
+    "<|pad|>": 0,
+    "<|unk|>": 1,
+    "<|bos|>": 2,
+    "<|eos|>": 3,
+    "<|system|>": 4,
+    "<|user|>": 5,
+    "<|assistant|>": 6,
+    "<|tool|>": 7,
+    "<|end|>": 8
+  },
+  "training_files": [
+    "toksample.txt"
+  ],
+  "encoding": "UTF-8"
+}
